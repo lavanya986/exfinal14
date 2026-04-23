@@ -1,0 +1,16 @@
+steps
+cd desktop
+mkdir exp_14
+cd exp_14
+mvn archetype:generate
+g.id: com.bnmit
+id:sample-app
+enter
+com.bnmit
+goto file in file explser src->main->java->com->bnmit->Calculator.java
+                              ->test->java->com->bnmit->CalculatorTest.java
+
+goto cmd
+cd sample-app
+mvn clean test
+goto file exploser sample-app->target->site
